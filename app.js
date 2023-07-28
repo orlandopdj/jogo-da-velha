@@ -44,9 +44,9 @@ function click(e) {
         return
     }
     alert('Você não pode adicionar aqui')
-
-
 }
+
+
 
 const reiniciar = () => {
     location.reload()
@@ -99,7 +99,7 @@ const winner = () => {
         <button class="restart" onclick="reiniciar()">Jogar novamente!</button>
     </div>`
     }
-    else if (item7.innerText === 'X' && item5.innerText === 'X' && item3.innerText === 'X' || item1.innerText === 'O' && item5.innerText === 'O' && item3.innerText === 'O') {
+    else if (item7.innerText === 'X' && item5.innerText === 'X' && item3.innerText === 'X' || item7.innerText === 'O' && item5.innerText === 'O' && item3.innerText === 'O') {
         container.innerHTML = `<h2> PARABÉNS VOCÊ GANHOU! </h2>`
         btn.innerHTML = `<div class="btn">
         <button class="restart" onclick="reiniciar()">Jogar novamente!</button>
@@ -112,7 +112,8 @@ const winner = () => {
 
 
 
-quadrado.forEach((quadrado) => {
+quadrado.forEach((quadrado) => { // VERIFICA O EVENTO DE TODOS OS QUADRADOS
     quadrado.addEventListener('click', click);
+
 });
 
