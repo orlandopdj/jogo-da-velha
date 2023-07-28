@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@900&family=Poppins&display=swap');
+
+* {
+    font-family: 'Handjet', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.restart {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    box-sizing: border-box;
+    background-color: #50eaf5;
+    border: 1px solid black;
+    width: 110px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quadrado {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+body {
+    background: rgb(170, 233, 255);
+    background: linear-gradient(180deg, rgba(170, 233, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background-repeat: no-repeat;
+}
