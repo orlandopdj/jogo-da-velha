@@ -1,5 +1,3 @@
-
-
 const quadrados = document.querySelectorAll('.quadrado') // ELA OBTEM TODOS OS QUADRADOS COM [index]
 const container = document.querySelector('.container')
 const btn = document.querySelector('.btn')
@@ -110,8 +108,6 @@ const winner = () => {
     </div>`
     }
 }
-
-
 
 
 

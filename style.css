@@ -9,6 +9,15 @@ h1 {
     text-align: center;
 }
 
+#playButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
 .restart {
     padding: 10px;
     font-size: 15px;
